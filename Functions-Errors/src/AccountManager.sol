@@ -4,7 +4,6 @@ pragma solidity ^0.8.19;
 
 contract AccountManager {
     uint public totalFunds = 0;
-
     // Function will deposit the amount required
     function depositRequire(uint _amount) public {
         // Check if the amount deposited is a positive value
@@ -25,11 +24,8 @@ contract AccountManager {
         totalFunds -= _amount;
     }
 
-    // Function is required to devide two positive value
-    function divideRequire(
-        uint _numerator,
-        uint _denominator
-    ) public pure returns (uint) {
+    // Function is required to devide two positive value 
+    function divideRequire(uint _numerator, uint _denominator) public pure returns (uint) {
         // Check if the Denum is not a zero Value
         require(_denominator != 0, "Denominator cannot be zero value.");
 
@@ -37,7 +33,7 @@ contract AccountManager {
         return _numerator / _denominator;
     }
 
-    // Function the show the use of the assert statement base on the project
+    // Function the show the use of the assert statement base on the project 
     function assertFunction() public pure {
         // This Divide 100 by 0, which will trigger as division by zero error and revert the transaction
         uint result = divideRequire(100, 4);

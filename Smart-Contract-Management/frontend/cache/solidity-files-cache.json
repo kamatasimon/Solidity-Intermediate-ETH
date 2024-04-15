@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\samue\\Desktop\\Kamata\\Intermediate-Solidity-Projects\\Smart-Contract-Management\\frontend\\contracts\\Zama.sol": {
+      "lastModificationDate": 1712830925618,
+      "contentHash": "8c18853f094e717f1dcbaeb0f9e2f653",
+      "sourceName": "contracts/Zama.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "ZamaToken"
+      ]
+    }
+  }
+}
